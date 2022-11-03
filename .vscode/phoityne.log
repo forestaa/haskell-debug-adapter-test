@@ -1,0 +1,29 @@
+2022-10-26 00:37:56.094672313000 [26422(ThreadId 13)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2022-10-26 00:38:51.890567272000 [26474(ThreadId 13)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2022-10-27 00:36:43.430359951000 [2906(ThreadId 13)] ERROR APP - <command line>: module 'MyLib1' is not interpreted; try ':add *MyLib1' first
+2022-10-27 00:44:40.310163847000 [5836(ThreadId 13)] ERROR APP - <command line>: module 'MyLib1' is not interpreted; try ':add *MyLib1' first
+2022-10-27 00:50:28.997376617000 [10575(ThreadId 12)] WARNING REQUEST - unsupported request command. {"command":"source","arguments":{"sourceReference":0,"source":{"path":"src/MyLib1.hs"}},"type":"request","seq":9}
+2022-10-27 01:23:21.163229197000 [18110(ThreadId 12)] WARNING REQUEST - unsupported request command. {"command":"source","arguments":{"sourceReference":0,"source":{"path":"src/MyLib1.hs"}},"type":"request","seq":9}
+2022-10-27 02:09:01.718659479000 [22344(ThreadId 12)] WARNING REQUEST - unsupported request command. {"command":"source","arguments":{"sourceReference":0,"source":{"path":"src/MyLib1.hs"}},"type":"request","seq":10}
+2022-11-03 12:06:22.982899819000 [13140(ThreadId 13)] ERROR APP - user error (no stacktrace found.)
+2022-11-03 12:06:23.056608918000 [13140(ThreadId 13)] ERROR APP - user error (no stacktrace found.)
+2022-11-03 12:06:30.166073400000 [13140(ThreadId 13)] ERROR APP - user error (ExecResult not found.)
+2022-11-03 12:11:11.577930107000 [13870(ThreadId 13)] ERROR APP - user error (no stacktrace found.)
+2022-11-03 12:11:11.653869717000 [13870(ThreadId 13)] ERROR APP - user error (no stacktrace found.)
+2022-11-03 12:11:12.452195714000 [13870(ThreadId 13)] ERROR APP - user error (ExecResult not found.)
+2022-11-03 12:13:44.345836737000 [13967(ThreadId 13)] ERROR APP - user error (<getModule> loaded module can not find from path. </home/foresta/playground/haskell-dap-test/src/MyLib1.hs> [("Main","/home/foresta/playground/haskell-dap-test/app/Main.hs")])
+2022-11-03 12:15:16.162716164000 [14531(ThreadId 13)] ERROR APP - user error (no stacktrace found.)
+2022-11-03 12:15:16.247071385000 [14531(ThreadId 13)] ERROR APP - user error (no stacktrace found.)
+2022-11-03 13:12:04.223364039000 [21769(ThreadId 13)] ERROR APP - user error (<getModule> loaded module can not find from path. </home/foresta/playground/haskell-dap-test/src/MyLib1.hs> [])
+2022-11-03 13:12:04.338223760000 [21769(ThreadId 13)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2022-11-03 13:16:24.471661081000 [23211(ThreadId 13)] ERROR APP - user error (<getModule> loaded module can not find from path. </home/foresta/playground/haskell-dap-test/src/MyLib1.hs> [])
+2022-11-03 13:16:24.623664180000 [23211(ThreadId 13)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2022-11-03 13:16:38.336256934000 [23289(ThreadId 13)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2022-11-03 13:19:54.639034092000 [24276(ThreadId 13)] ERROR APP - <command line>: module 'MyLib1' is not interpreted; try ':add *MyLib1' first
+2022-11-03 13:22:44.871105375000 [25790(ThreadId 13)] ERROR APP - <command line>: module 'MyLib1' is not interpreted; try ':add *MyLib1' first
+2022-11-03 13:23:21.851401595000 [26442(ThreadId 13)] ERROR APP - <command line>: module 'MyLib1' is not interpreted; try ':add *MyLib1' first
+2022-11-03 13:24:04.062335122000 [26852(ThreadId 12)] WARNING REQUEST - unsupported request command. {"command":"source","arguments":{"sourceReference":0,"source":{"path":"src/MyLib1.hs"}},"type":"request","seq":10}
+2022-11-03 13:27:23.827073845000 [28423(ThreadId 13)] ERROR APP - <command line>: module 'MyLib1' is not interpreted; try ':add *MyLib1' first
+2022-11-03 13:29:17.323451981000 [29183(ThreadId 13)] ERROR APP - <command line>: module 'MyLib1' is not interpreted; try ':add *MyLib1' first
+2022-11-03 13:29:44.117619994000 [29251(ThreadId 13)] ERROR APP - user error (<getModule> loaded module can not find from path. </home/foresta/playground/haskell-dap-test/src/MyLib1.hs> [])
+2022-11-03 13:29:44.444665825000 [29251(ThreadId 13)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
