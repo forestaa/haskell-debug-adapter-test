@@ -31,3 +31,8 @@
 2022-11-03 23:10:51.187335621000 [115420(ThreadId 13)] ERROR APP - <file descriptor: 49>: hPutChar: resource vanished (Broken pipe)
 2022-11-03 23:20:56.134025815000 [118890(ThreadId 13)] ERROR APP - user error (<getModule> loaded module can not find from path. </home/foresta/playground/haskell-dap-test/src/MyLib1.hs> [("MyLib2","/home/foresta/playground/haskell-dap-test/src/MyLib2.hs")])
 2022-11-03 23:20:56.209721040000 [118890(ThreadId 13)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2022-11-03 23:34:11.875112809000 [121563(ThreadId 13)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2022-11-03 23:35:32.545521616000 [122168(ThreadId 13)] ERROR APP - module 'MyLib1' is not interpreted; try ':add *MyLib1' first
+2022-11-03 23:37:10.668001646000 [123289(ThreadId 13)] ERROR APP - module 'MyLib1' is not interpreted; try ':add *MyLib1' first
+2022-11-03 23:37:34.137004283000 [123706(ThreadId 13)] ERROR APP - module 'MyLib1' is not interpreted; try ':add *MyLib1' first
+2022-11-03 23:38:24.553492501000 [124703(ThreadId 12)] WARNING REQUEST - unsupported request command. {"command":"source","arguments":{"sourceReference":0,"source":{"path":"src/MyLib1.hs"}},"type":"request","seq":10}
