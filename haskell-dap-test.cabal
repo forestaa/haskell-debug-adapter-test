@@ -11,16 +11,16 @@ library
         MyLib1
         MyLib2
     default-extensions:
-        GADTs
+        OverloadedRecordDot
     build-depends:
-        base ^>=4.16.3.0
+        base
     hs-source-dirs:   src
     default-language: Haskell2010
 
 executable haskell-dap-test
     main-is:          Main.hs
     build-depends:
-        base ^>=4.16.3.0,
+        base,
         haskell-dap-test
     hs-source-dirs:   app
     default-language: Haskell2010

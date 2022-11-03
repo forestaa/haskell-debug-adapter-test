@@ -27,3 +27,7 @@
 2022-11-03 13:29:17.323451981000 [29183(ThreadId 13)] ERROR APP - <command line>: module 'MyLib1' is not interpreted; try ':add *MyLib1' first
 2022-11-03 13:29:44.117619994000 [29251(ThreadId 13)] ERROR APP - user error (<getModule> loaded module can not find from path. </home/foresta/playground/haskell-dap-test/src/MyLib1.hs> [])
 2022-11-03 13:29:44.444665825000 [29251(ThreadId 13)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
+2022-11-03 23:10:26.817652490000 [114972(ThreadId 13)] ERROR APP - <file descriptor: 49>: hPutChar: resource vanished (Broken pipe)
+2022-11-03 23:10:51.187335621000 [115420(ThreadId 13)] ERROR APP - <file descriptor: 49>: hPutChar: resource vanished (Broken pipe)
+2022-11-03 23:20:56.134025815000 [118890(ThreadId 13)] ERROR APP - user error (<getModule> loaded module can not find from path. </home/foresta/playground/haskell-dap-test/src/MyLib1.hs> [("MyLib2","/home/foresta/playground/haskell-dap-test/src/MyLib2.hs")])
+2022-11-03 23:20:56.209721040000 [118890(ThreadId 13)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"

@@ -4,5 +4,5 @@ import MyLib2
 
 someFunc :: IO ()
 someFunc = do
-  let str = show . eval $ Const 3
-  putStrLn str
+  let user = User "tom"
+  putStrLn user.name
